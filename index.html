@@ -1,1 +1,213 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jesus152008 | Portfolio</title>
+    <meta name="description" content="Professional portfolio of Jesus152008, showcasing skills, projects, and contact information.">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1a73e8;
+            --background: #f8f9fa;
+            --text: #202124;
+            --accent: #ff9800;
+        }
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            background: var(--background);
+            color: var(--text);
+        }
+        header {
+            background: var(--primary);
+            color: #fff;
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0.2em 0 0.1em 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        header p {
+            margin-top: 0;
+            font-size: 1.2rem;
+            font-weight: 300;
+        }
+        nav {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1.5em;
+            font-size: 1.05rem;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+        nav a:hover {
+            color: var(--accent);
+        }
+        main {
+            max-width: 900px;
+            margin: 2.5rem auto;
+            background: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+            padding: 2.5rem;
+        }
+        section {
+            margin-bottom: 2.5rem;
+        }
+        section:last-child {
+            margin-bottom: 0;
+        }
+        h2 {
+            color: var(--primary);
+            margin-bottom: 0.7em;
+            font-size: 1.7rem;
+            border-bottom: 2px solid #ececec;
+            padding-bottom: 0.2em;
+            font-weight: 700;
+        }
+        .skills-list, .projects-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .skills-list li {
+            display: inline-block;
+            background: var(--primary);
+            color: #fff;
+            margin: 0.3em 0.5em 0.3em 0;
+            padding: 0.4em 1em;
+            border-radius: 20px;
+            font-size: 1em;
+        }
+        .project {
+            margin-bottom: 1.7em;
+        }
+        .project:last-child {
+            margin-bottom: 0;
+        }
+        .project-title {
+            font-weight: 600;
+            color: var(--text);
+            font-size: 1.15em;
+        }
+        .project-description {
+            margin: 0.3em 0 0.5em 0;
+            color: #444;
+            font-weight: 400;
+        }
+        .project-links a {
+            color: var(--primary);
+            text-decoration: none;
+            margin-right: 1.2em;
+            font-size: 0.98em;
+        }
+        .project-links a:hover {
+            text-decoration: underline;
+        }
+        .contact-info {
+            font-size: 1.1em;
+            margin-top: 1em;
+        }
+        .contact-info a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        @media (max-width: 650px) {
+            main {
+                padding: 1.2rem;
+            }
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jesus152008</h1>
+        <p>Software Developer &amp; Technology Enthusiast</p>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                Hi! I'm <strong>Jesus152008</strong>, a passionate software developer with a drive for building impactful digital solutions. I specialize in modern web technologies and love learning new tools, frameworks, and languages. My projects range from elegant front-end interfaces to robust back-end systems, always focusing on clean code and user-centric design.
+            </p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Express</li>
+                <li>Python</li>
+                <li>Git &amp; GitHub</li>
+                <li>SQL</li>
+                <li>REST APIs</li>
+                <li>UI/UX Design</li>
+            </ul>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="projects-list">
+                <div class="project">
+                    <div class="project-title">Personal Portfolio Website</div>
+                    <div class="project-description">
+                        A modern and responsive portfolio website to showcase my skills, projects, and experience. Built with HTML, CSS, and JavaScript for a seamless user experience.
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Jesus152008/portfolio" target="_blank">GitHub Repo</a>
+                        <a href="#">Live Demo</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-title">Task Manager App</div>
+                    <div class="project-description">
+                        A full-stack task management application using React and Node.js, allowing users to organize tasks, set deadlines, and sync across devices.
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Jesus152008/task-manager" target="_blank">GitHub Repo</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-title">Weather Dashboard</div>
+                    <div class="project-description">
+                        An interactive dashboard that fetches real-time weather data from public APIs and displays it in a user-friendly interface.
+                    </div>
+                    <div class="project-links">
+                        <a href="https://github.com/Jesus152008/weather-dashboard" target="_blank">GitHub Repo</a>
+                        <a href="#">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <div class="contact-info">
+                Email: <a href="mailto:your.email@example.com">your.email@example.com</a><br>
+                GitHub: <a href="https://github.com/Jesus152008" target="_blank">Jesus152008</a><br>
+                LinkedIn: <a href="#" target="_blank">Your LinkedIn Profile</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
